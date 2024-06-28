@@ -1,0 +1,66 @@
+
+
+.cont {
+  background-color: white;
+
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  flex-direction: column;
+  align-items: center;
+ padding-left: 20px;
+
+
+
+}
+
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 15px;
+  gap: 80px;
+  
+}
+
+.incard {
+  background-color: #d9d9d9;
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.info {
+  background-color: whitesmoke;
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.path {
+  height: 190px;
+  width: 762px;
+}
+
+.path1 {
+  height: 178px;
+}
+
+.path2 {
+
+  height: 222.5px;
+  width: 403px;
+}
+
+.end {
+  background-color: #d9d9d9;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+
+}
+.btn{
+       border: 2px solid red;
+       width: 237px;
+   padding: 12px;
+}
