@@ -24,27 +24,26 @@ const Cards = () => {
 
   return (
     <>
-      <div className=" flex flex-col items-center gap-10 mt-10 justify-center ">
+      <div className=" flex flex-col w-full items-center text-center gap-10 mt-10 justify-center ">
         <div>
           <h1>heading</h1>
         </div>
-        <div className="flex justify-evenly w-full ">
+        <div className="flex justify-evenly  w-full ">
           <Link to="card1" smooth={true} duration={2000}>
-            <button className="btn"> Submit Application</button>
+            <button className="btn max-sm:w-28 "> Submit Application</button>
           </Link>
 
           <Link to="cardTwo" smooth={true} duration={2000}>
-            <button className="btn">Select Domain</button>
+            <button className="btn max-sm:w-24 ">Select Domain</button>
           </Link>
 
           <Link to="card3" smooth={true} duration={2000}>
-            <button className="btn"> Certificate</button>
+            <button className="btn max-sm:w-24 max-sm:py-6"> Certificate</button>
           </Link>
         </div>
       </div>
-      <div className="cont flex flex-row    ">
-        <div className=" bg-slate-400 w-[32px] h-[1900px] text-start mb-80 ">
-          {" "}
+      <div className="  cont flex flex-row   ">
+        <div className=" ml-10 flex bg-slate-400 w-[32px] h-[1900px] text-start mb-80 ">.
         </div>
         <div className="">
           <Card />

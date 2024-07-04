@@ -1,22 +1,20 @@
-import { useState } from 'react'
-import './App.css'
-import Cards from './components/Cards/Cards'
-// import Ani from './components/Ani/Ani'
-import Confet from './components/Confet/Confet'
+import "./App.css";
+import Cards from "./components/Cards/Cards";
+import Confet from "./components/Confet/Confet";
+import IDCard from "./components/IdCard/IdCard";
+
 function App() {
-  const [count, setCount] = useState(0)
+
   
   return (
-
-   
     <>
-     <Confet/>
-       {/* <Ani/> */}
-     <Cards/> 
+      <Confet />
+      <Cards />
+      <IDCard />
     
-  
+      
     </>
-  )
+  );
 }
 
-export default App
+export default App;
