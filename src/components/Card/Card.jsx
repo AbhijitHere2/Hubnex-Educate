@@ -19,7 +19,7 @@ const Card = () => {
       <div className="infoo max-sm:py-[7px]  max-md:mt-[25px] space-y-3 max-md:w-auto transition-all duration-300 ease w-[514px]  h-[326px]  ">
         <p className="flex text-xl font-semibold text-[32px] ">
           <span>
-            <FaCircleArrowDown className="mt-1 mr-4 text-[32px]" />
+            <FaCircleArrowDown className="mt mr-4 text-[32px]" />
           </span>
           Submit Application
         </p>
