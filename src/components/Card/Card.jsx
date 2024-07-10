@@ -1,19 +1,39 @@
 import React from "react";
 import "../Cards/Cards.css";
+import step1 from "../images/stap1.svg";
+import { FaCircleArrowDown } from "react-icons/fa6";
 
 const Card = () => {
   return (
     <div
-    id="card1"
+      id="card1"
+      
       ddata-aos-delay="500"
       data-aos="fade-up"
       class="aos-all"
-      className="card w-[80%] mx-40  transition-all duration-300  ease rounded-lg  shadow-md  hover:shadow-slate-400 "     >
-      <div className="incard  transition-all duration-300  ease w-[430px]  h-[430px] shadow-lg ">
-        Card 1 <br />   Submit Application
+      className="card  my-5   flex justify-center items-center max-lg:h-auto max-xl:w-auto  max-lg:flex-col   transition-all duration-300  ease "
+    >
+      <div className="  transition-all duration-300  max-md:w-auto ease   ">
+        <img className=" incard rounded-[19px]" src={step1} alt="" />
       </div>
-      <div className="info  transition-all duration-300 ease w-[430px]  h-[430px] shadow-lg  ">
-        info
+      <div className="infoo max-sm:py-[7px]  max-md:mt-[25px] space-y-3 max-md:w-auto transition-all duration-300 ease w-[514px]  h-[326px]  ">
+        <p className="flex text-xl font-semibold text-[32px] ">
+          <span>
+            <FaCircleArrowDown className="mt-1 mr-4 text-[32px]" />
+          </span>
+          Submit Application
+        </p>
+        <p className=" text-2xl font-medium">
+          Unleash your potential apply now for exclusive workshop!
+        </p>
+        <p className="  text-[16px] ">
+          Tell us a bit about yourself and mention your reasons for
+          participating in this program
+        </p>
+       <div className=" text-center  ">
+       <button className="card-btn border-gradient-purple  ">Apply Now</button>
+
+       </div>
       </div>
     </div>
   );
