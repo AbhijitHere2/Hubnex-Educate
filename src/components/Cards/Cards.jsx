@@ -6,9 +6,9 @@ import way3 from "../images/Vector2.svg";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Card from "../Card/Card";
-import CardTwo from "../CardTwo/CardTwo";
-import CardThree from "../CardThree/CardThree";
+import Card from "./Card/Card";
+import CardTwo from "./CardTwo/CardTwo";
+import CardThree from "./CardThree/CardThree";
 import { Link } from "react-scroll";
 
 import { FaCircleCheck } from "react-icons/fa6";
@@ -25,7 +25,8 @@ const Cards = () => {
 
   return (
     <>
-      <div className=" flex  flex-col w-full items-center gap-[50px]  justify-center ">
+   <div className="mx-5">
+   <div className=" flex mt-16 flex-col w-full items-center gap-[50px]  justify-center ">
         <div className="head-box flex flex-col justify-center items-center ">
           <h1 className="text-[32px] font-semibold text-center w-[658] max-sm:w-[315px]">Achieve Your Goals in Just 3 Simple Steps</h1>
           <p className="text-[24px] font-extralight w-[658px] text-center max-sm:w-[315px]">Our tailored learning plan and receive continuous support to ensure your success every step of the way</p>
@@ -59,7 +60,7 @@ const Cards = () => {
           </div>
           <CardThree />
           <div>
-            <img className="  mr-96  max-lg:ml-52 max-sm:ml-28 max-lg:w-[30%] max-xl:w-[35%] max-xl:ml-36  " src={way3} alt="" />
+            <img className="  mr-96  max-lg:ml-52 max-sm:ml-28 max-lg:w-[30%] max-xl:w-[35%] max-xl:ml-36   " src={way3} alt="" />
           </div>
           <div className="end  transition-all duration-300 ease flex justify-center items-center w-auto ">
           
@@ -79,6 +80,7 @@ const Cards = () => {
           </div>
         </div>
       </div>
+   </div>
     </>
   );
 };

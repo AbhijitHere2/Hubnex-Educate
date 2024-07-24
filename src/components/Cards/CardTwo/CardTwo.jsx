@@ -1,6 +1,6 @@
 import React from "react";
-import "../Cards/Cards.css";
-import step2 from "../images/step2.svg";
+import "../Cards.css";
+import step2 from "../../images/step2.svg";
 import { FaCircleCheck } from "react-icons/fa6";
 const CardTwo = () => {
   return (
@@ -12,10 +12,10 @@ const CardTwo = () => {
       className="card  flex justify-center items-center max-lg:h-auto max-md:w-auto  max-lg:flex-col-reverse   transition-all duration-500  ease   "
     >
       
-      <div className="infoo max-sm:py-[7px]  max-md:mt-[25px] space-y-3 max-md:w-auto transition-all duration-300 ease w-[514px]  h-[326px]  ">
+      <div className="infoo max-sm:py-[7px]  max-md:mt-[25px] space-y-3 max-md:w-auto transition-all duration-300 ease w-[514px] ">
         <p className="flex text-xl font-semibold text-[32px] ">
           <span>
-            <FaCircleCheck className=" mr-4 text-[32px]" />
+            <FaCircleCheck className=" mr-3 mt-1 text-[25px]" />
           </span>
           Select your domain
         </p>

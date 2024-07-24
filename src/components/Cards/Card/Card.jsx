@@ -1,6 +1,6 @@
 import React from "react";
-import "../Cards/Cards.css";
-import step1 from "../images/stap1.svg";
+import "../Cards.css";
+import step1 from "../../images/stap1.svg";
 import { FaCircleArrowDown } from "react-icons/fa6";
 
 const Card = () => {
@@ -16,10 +16,10 @@ const Card = () => {
       <div className="  transition-all duration-300  max-md:w-auto ease   ">
         <img className=" incard rounded-[19px]" src={step1} alt="" />
       </div>
-      <div className="infoo max-sm:py-[7px]  max-md:mt-[25px] space-y-3 max-md:w-auto transition-all duration-300 ease w-[514px]  h-[326px]  ">
+      <div className="infoo max-sm:py-[7px]  max-md:mt-[25px] space-y-3 max-md:w-auto transition-all duration-300 ease w-[514px]   ">
         <p className="flex text-xl font-semibold text-[32px] ">
           <span>
-            <FaCircleArrowDown className="mt mr-4 text-[32px]" />
+            <FaCircleArrowDown className="mr-3 mt-1 text-[25px]" />
           </span>
           Submit Application
         </p>

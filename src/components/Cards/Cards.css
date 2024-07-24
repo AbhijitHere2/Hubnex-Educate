@@ -1,45 +1,36 @@
 .cont {
-  background-color: white;
-
   display: flex;
-  padding-top: 10px;
-  padding-bottom: 50px;
-
   flex-direction: column;
   align-items: center;
-
   padding: 5px;
+ 
 }
 
 .card {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-
-  /* width: 914px; */
-  height: 386px;
-  top: 2539px;
-  left: 243px;
   padding: 30px;
   gap: 28px;
   border-radius: 31px;
   opacity: 1px;
 animation-delay: 2s;
   box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+
+
 }
 
 .incard {
-  background-color: #d9d9d9;
+
 
   width: 316px;
-  height: 316px;
+
 
   border-radius: 19px;
 }
 
 .info {
   width: 514pxpx;
-  height: 326px;
+
   padding: 40px 54px 41px 54px;
   gap: 18px;
   border-radius: 14px;
@@ -47,7 +38,7 @@ animation-delay: 2s;
 }
 .infoo {
   width: 614px;
-  height: 426px;
+
   padding: 40px;
   gap: 18px;
   border-radius: 14px;

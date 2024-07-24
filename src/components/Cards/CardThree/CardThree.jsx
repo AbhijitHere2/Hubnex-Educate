@@ -1,7 +1,7 @@
 import React from "react";
-import '../Cards/Cards.css'
-import step3 from "../images/step3.svg";
-import certificate from'../images/certificate.svg'
+import "../Cards.css";
+import step3 from "../../images/step3.svg";
+import certificate from'../../images/certificate.svg'
 
 const CardThree = () => {
   return (
@@ -15,7 +15,7 @@ const CardThree = () => {
         <div className="  transition-all duration-300  max-md:w-auto ease   ">
         <img className=" incard rounded-[19px]" src={step3} alt="" />
       </div>
-      <div className="infoo max-md:mt-[25px] space-y-3 max-md:w-auto transition-all duration-300 ease w-[514px]  h-[326px] max-sm:py-[10px]  ">
+      <div className="infoo max-md:mt-[25px] space-y-3 max-md:w-auto transition-all duration-300 ease w-[514px] max-sm:py-[10px]  ">
         <p className="flex text-xl font-semibold text-[32px] ">
           <span>
             <img className="mt-1 mr-4 text-[32px]" src={certificate} alt="" />
