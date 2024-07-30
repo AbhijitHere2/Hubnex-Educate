@@ -52,15 +52,15 @@ const Cards = () => {
         <div className="  w-full flex justify-center items-center flex-col  ">
           <Card />
           <div>
-            <img className="  max-sm:ml-28   max-lg:w-[50%] max-xl:w-[55%] max-xl:ml-52    " src={way1} alt="" />
+            <img className="  max-sm:hidden max-lg:w-[50%] max-xl:w-[55%] max-xl:ml-52    " src={way1} alt="" />
           </div>
           <CardTwo />
           <div>
-            <img className="  max-sm:ml-28  max-lg:w-[50%] max-xl:w-[55%] max-xl:ml-52   " src={way2} alt="" />
+            <img className="  max-sm:hidden  max-lg:w-[50%] max-xl:w-[55%] max-xl:ml-52   " src={way2} alt="" />
           </div>
           <CardThree />
           <div>
-            <img className="  mr-96  max-lg:ml-52 max-sm:ml-28 max-lg:w-[30%] max-xl:w-[35%] max-xl:ml-36   " src={way3} alt="" />
+            <img className="  mr-96  max-lg:ml-52 max-sm:hidden max-lg:w-[30%] max-xl:w-[35%] max-xl:ml-36   " src={way3} alt="" />
           </div>
           <div className="end  transition-all duration-300 ease flex justify-center items-center w-auto ">
           

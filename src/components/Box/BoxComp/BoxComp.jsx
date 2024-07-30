@@ -17,4 +17,6 @@ const BoxComp = ({ icon, title, description }) => {
   );
 };
 
+
+
 export default BoxComp;
